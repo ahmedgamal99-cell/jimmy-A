@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bootstrap</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/sstyle.css" >
+  <link rel="stylesheet" href="css/tt-default.css" >
+  <link rel="stylesheet" href="css/boot-media.css" >
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+</head>
+<body>
+  <!-----------------------------------------start tool box------------------------------------------------------------------>
+  <div class="option-box hidden-xs">
+    <div class="color-option">
+      <h4>color option</h4>
+      <ul class="list-unstyled">
+        <li data-value="css/tt-default.css"></li>
+        <li data-value="css/tt-blue.css"></li>
+        <li data-value="css/tt-green.css"></li>
+      </ul>
+    </div>
+    <i class="fas fa-cog fa-3x check-option"></i>
+  </div>
+
+
+
+
+
+
+
+  <!-----------------------------------------start our nav bar --------------------------------------------------------------->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#our-nav-bar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
+        <a class="navbar-brand hvr-wobble-top" href="#">CR7 <span>Brand</span></a>
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right" id="our-nav-bar">
+        
+        <ul class="nav navbar-nav ">
+          <li class="active"><a href="#"> Home <span class="sr-only">(current)</span></a></li>
+          
+          <li><a href="#"> About</a></li>
+          
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Programming</a></li>
+              <li><a href="#">Web design</a></li>
+              <li><a href="#">photoshop</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Host design</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Desktop</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        
+        <ul class="nav navbar-nav ">
+          <li><a href="#">Map</a></li>
+      
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Company <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+<!--------------------------------------------------------------end our nav bar ------------------------------------------------>
+
+<!--------------------------------------------------------------start carosel--------------------------------------------------->
+<div class="first">
+<div id="my-slider" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators hidden-xs">
+    <li data-target="#my-slider" data-slide-to="0" class="active"></li>
+    <li data-target="#my-slider" data-slide-to="1"></li>
+    <li data-target="#my-slider" data-slide-to="2"></li>
+    <li data-target="#my-slider" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    
+    <div class="item active">
+      <img src="images/slide2.jpg">
+      <div class="carousel-caption">
+        <h1>Web Design</h1>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here</p> 
+        </div>
+    </div>
+    
+    <div class="item">
+      <img src="images/slide1.jpg" >
+      <div class="carousel-caption">
+      <h1> Web Graphic</h1>
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here</p> 
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="images/slide3.jpg">
+      <div class="carousel-caption">
+        <h1>programming</h1>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="images/slide4.jpg">
+      <div class="carousel-caption">
+        <h1>photoshop</h1>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here</p>
+      </div>
+    </div>
+    
+  </div>
+  
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#my-slider" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+
+  <a class="right carousel-control" href="#my-slider" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+<!------------------------------------------------end slider ------------------------------------------------------->
+<!------------------------------------------------start about ------------------------------------------------------>
+<div class="about text-center">
+  <div class="container">
+    <h1 class="hidden-xs">Meet our new Templet CR7 Brand</h1>
+    <h3 class="visible-xs">Meet our new Templet CR7 Brand</h3>
+    <p class="lead">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+  </div>
+</div>
+<!-----------------------------------------------------end about ----------------------------------------------------------------------->
+
+<!---------------------------------------------------- start features-------------------------------------------------------------------------->
+<div class="features text-center">
+  <div class="container">
+    <h1> our <span>features</span></h1>
+    
+    <div class="row">
+
+      <div class="col-lg-3 col-md-6 col-xs-12" >
+        <div class="feat">
+          <span class="glyphicon glyphicon-ok"></span>
+          <h3>100% responsive</h3>
+          <p>It is a long established fact that a reader will be distracted</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-xs-12" >
+        <div class="feat">
+          <span class="glyphicon glyphicon-thumbs-up"></span>
+          <h3>The Best Design</h3>
+          <p>It is a long established fact that a reader will be distracted</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-xs-12" >
+        <div class="feat">
+          <span class="glyphicon glyphicon-euro"></span>
+          <h3>Good offers</h3>
+          <p>It is a long established fact that a reader will be distracted</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-xs-12" >
+        <div class="feat">
+          <span class="glyphicon glyphicon-globe"></span>
+          <h3>WorldWide distrubution</h3>
+          <p>It is a long established fact that a reader will be distracted</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<!---------------------------------------------------end features -------------------------------------------------------------------->
+<!--------------------------------------------------- start testmonialis--------------------------------------------------------------------->
+<div class="testmonialis text-center">
+  <h1> <span>what</span> our client says ?</h1>
+  
+  <div id="test-carousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    
+    <ol class="carousel-indicators">
+      <li data-target="#test-carousel" data-slide-to="0" class="active">
+        <img src="images/test1.jpg">
+      </li>
+      <li data-target="#test-carousel" data-slide-to="1">
+        <img src="images/test2.jpg">
+      </li>
+      <li data-target="#test-carousel" data-slide-to="2">
+        <img src="images/test3.jpg">
+      </li>
+    </ol>
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner"  role="listbox">
+      
+      <div class="item active">
+        <p class="lead">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BCContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
+        <h2>salem</h2>
+      </div>
+      
+      <div class="item">
+        <p class="lead">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BCContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
+        <h2>mahmoud</h2>
+      </div>
+
+      <div class="item">
+        <p class="lead">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BCContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
+        <h2>yasmen</h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!---------------------------------------------------------end testmonialis------------------------------------------------------>
+
+<!----------------------------------------------------------start price----------------------------------------------------------->
+<div class="price text-center">
+  <div class="container">
+    <h1> <span>our</span> prices</h1>
+    
+    <div class="row">
+      
+      <div class="col-lg-3 col-sm-6 col-xs-12">
+        <div class="price-box">
+          <h3 class ="text-danger">plan #1</h3>
+          <p class="center-block">&dollar;50 </p>
+          <ul class="list-unstyled">
+            
+            <li>space : 30GB</li>
+            <li>Data base : 10</li>
+            <li>Emails : 20</li>
+            <li>IPs : 2</li>
+          </ul>
+          <div class="btn btn-danger hvr-wobble-horizontal"> Order Now</div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6 col-xs-12">
+        <div class="price-box">
+          <h3 class="text-primary">plan #2</h3>
+          <p class="center-block">&dollar;70 </p>
+          <ul class="list-unstyled">
+            <li>space : 40GB</li>
+            <li>Data base : 15</li>
+            <li>Emails : 24</li>
+            <li>IPs : 3</li>
+          </ul>
+          <div class="btn btn-primary hvr-wobble-horizontal"> Order Now</div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6 col-xs-12">
+        <div class="price-box">
+          <h3 class="text-success">plan #3</h3>
+          <p class="center-block">&dollar;100 </p>
+          <ul class="list-unstyled">
+            <li>space : 50GB</li>
+            <li>Data base : 20</li>
+            <li>Emails : 30</li>
+            <li>IPs : 4</li>
+          </ul>
+          <div class="btn btn-success hvr-wobble-horizontal"> Order Now</div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6 col-xs-12">
+        <div class="price-box">
+          <h3 class="text-info">plan #4</h3>
+          <p class="center-block">&dollar;150 </p>
+          <ul class="list-unstyled">
+            <li>space : 60GB</li>
+            <li>Data base : 30</li>
+            <li>Emails : 40</li>
+            <li>IPs : 5</li>
+          </ul>
+          <div class="btn btn-info hvr-wobble-horizontal"> Order Now</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!---------------------------------------------------------------------end price---------------------------------------------------->
+
+<!-------------------------------------------------------------- start our team ----------------------------------------------------->
+<div class="our-team text-center">
+  <div class="team-overlay">
+  <div class="container">
+    
+    
+    <h1><span>our</span> team</h1>
+    <div class="row">
+      
+      <div class="col-lg-3 col-xs-6 ">
+        <div class="persone">
+          <img class="img-circle " src="images/team1.jpg" >
+          <h3>maria andro</h3>
+          <span>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-whatsapp-square"></i>
+          </span>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-xs-6 ">
+        <div class="persone">
+          <img class="img-circle" src="images/team2.jpg" >
+          <h3>sally fahmy</h3>
+          <span>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-whatsapp-square"></i>
+          </span>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-xs-6 ">
+        <div class="persone">
+          <img class="img-circle" src="images/team3.jpg" >
+          <h3>mikel sameh</h3>
+          <span>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-whatsapp-square"></i>
+          </span>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-xs-6">
+        <div class="persone">
+          <img class="img-circle" src="images/team4.jpg" >
+          <h3>mahmoud samy</h3>
+          <span>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-whatsapp-square"></i>
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+</div>
+<!-------------------------------------------------------END OUR-TEAM---------------------------------------------------------------->
+<!-------------------------------------------------------START SUBESCRIBE------------------------------------------------------------>
+<div class="subscribe text-center">
+  <div class="container">
+    <h1><span>Keep</span> In Touch</h1>
+    <p class="lead"> sign up with us and do not worry about span we hate it too</p>
+    <form class="form-inline">
+      <input class="form-control"type="text" placeholder="Write you E-mail">
+      <div class="btn btn-danger"> subscribe</div>
+    </form>
+  </div>
+</div>
+
+<!------------------------------------------------------END SUBSCRIBE------------------------------------------------------------------>
+<!------------------------------------------------------START STAT--------------------------------------------------------------------->
+
+<div class="stats text-center">
+  <div class="stats-overlay">
+    <div class="container">
+      <h1> <span>our</span> statictics</h1>
+
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <div class="stat">
+            <i class="fas fa-users"></i>
+            <p>9,550</p>
+            <span>users</span>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <div class="stat">
+            <i class="fas fa-comments"></i>
+            <p>25,667</p>
+            <span> comments</span>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <div class="stat">
+            <i class="fas fa-suitcase"></i>
+            <p>2,457</p>
+            <span>projects</span>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <div class="stat">
+            <i class="far fa-question-circle"></i>
+            <p>95,087</p>
+            <span>support tickets</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!----------------------------------------------------------END STATS---------------------------------------------------------------------->
+<!----------------------------------------------------------START SKILLS------------------------------------------------------------------->
+<div class="our-skills">
+  <div class="container">
+    <h1 class="text-center"> <span>Our</span> Skills</h1>
+    <div class="row">
+      
+      <div class="col-md-5">
+        <div class="skills-progress">
+          
+          <div class="progress">
+            <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+              HTML/CSS
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="70" style="width: 70%;">
+              JAVAscript
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="60" style="width: 60%;">
+              PHP
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" style="width: 50%;">
+              Wordpress
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-md-6 col-md-offset-1">
+        <div class="skills-info">
+          <h3>About the team</h3>
+          <p class="lead">
+            we are specialized design and programming team passionate about web design and creating digital ideas and we can make your wish come true 
+          </p>
+          <div class="btn btn-primary"> speak to A professional</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-----------------------------------------------------------------end skills------------------------------------------------------------->
+
+<!-----------------------------------------------------------------start contact us------------------------------------------------------->
+<div class="contact-us text-center">
+  <div class="contact-overlay">
+    <div class="container">
+      <i class="fas fa-headphones fa-5x"></i>
+      <h1><span>Tell</span> Us What You Feel</h1>
+      <p>Feel Free To Contact Us At Any Time</p>
+      <!-- start contact form-->
+      
+      <div class="row">
+        
+        <div class="col-md-6">
+          <form role="form ">
+            
+            <div class="form-group ">
+              <input type="text" class="form-control" placeholder="type your username">
+            </div>
+
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="type your E-Mail">
+            </div>
+
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="type your phone number">
+            </div>
+          </form>
+        </div>
+
+        <div class="col-md-6">
+          <div class="form-group">
+            <textarea  class="form-control" placeholder="type your message"></textarea>
+          </div>
+          <div class="btn btn-danger btn-block">Contact Us</div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+<!----------------------------------------------------End Contact Us ------------------------------------------------------------------------>
+
+<!----------------------------------------------------Start Our Clients --------------------------------------------------------------------->
+
+<div class="our-clients text-center">
+  <div class="container">
+    <h1> <span>Our</span> Special Clients</h1>
+    
+    <div class="row">
+      <ul class="list-unstyled">
+        <li class="col-md-3 col-xs-6">
+          <img class="img-responsive" src="images/clint1.jpg" >
+        </li>
+
+        <li class="col-md-3 col-xs-6">
+          <img class="img-responsive" src="images/clint2.jpg">
+        </li>
+
+        <li class="col-md-3 col-xs-6">
+          <img class="img-responsive" src="images/clint3.jpg">
+        </li>
+
+        <li class="col-md-3 col-xs-6">
+          <img class="img-responsive" src="images/clint4.jpg">
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!------------------------------------------------------END OUR CLIENTS----------------------------------------------------------------------->
+
+<!------------------------------------------------------START OUR FOOTER---------------------------------------------------------------------->
+<div class="foot">
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-md-4">
+        <h3>sitemap</h3>
+        <ul class="list-unstyled three-col">
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Company</li>
+          <li>Code</li>
+          <li>Design</li>
+          <li>Host</li>
+          <li>Contact</li>
+          <li>Solution</li>
+        </ul>  
+        <ul class="list-unstyled social-media">
+          <li><i class="fab fa-facebook fa-2x "></i></li>
+          <li><i class="fab fa-whatsapp fa-2x"></i></li>
+          <li><i class="fab fa-instagram fa-2x"></i></li>
+          <li><i class="fab fa-twitter fa-2x"></i></li>
+          <li><i class="fab fa-google-plus-g fa-2x"></i></li>
+          <li><i class="fab fa-pinterest fa-2x"></i></li>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <h3>Latest Articles</h3>
+        <div class="media">
+          <div class="media-left col-xs-4">
+            <a href="#">
+              <img class="media-object img-responsive" src="images/footer1.jpg" style="height: 64px; min-width: 100px;">
+            </a>
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading">programming</h4>
+            this some text about programming Describe the Media of Bootstrap 
+          </div>
+        </div>
+
+        <div class="media">
+          <div class="media-left col-xs-4">
+            <a href="#">
+              <img class="media-object img-responsive" src="images/footer2.jpg" style="height: 64px; min-width: 100px;" >
+            </a>
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading"> WorldWide</h4>
+            we are all over the world we always next to you and help you any time
+          </div>
+        </div>
+
+        
+        <div class="media">
+          <div class="media-left col-xs-4">
+            <a href="#">
+              <img class="media-object img-responsive" src="images/footer3.jpg" style="height: 64px; min-width: 100px;" >
+            </a>
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading"> Best Design</h4>
+            we present the best Designs for you at any time 
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-md-4 work">
+        <h3>Our Awesome Work</h3>
+        <img src="images/work1.jpg" class="img-responsive col-md-6 col-xs-6"> 
+        <img src="images/work2.jpg" class="img-responsive col-md-6 col-xs-6"> 
+        <img src="images/work3.jpg" class="img-responsive col-md-6 col-xs-6"> 
+        <img src="images/work4.jpg" class="img-responsive col-md-6 col-xs-6">  
+      </div>
+    </div>
+
+    </div>
+  </div>
+
+<!-------------------------------------------------------LOADING---------------------------------------------------------------->
+<div class="loading-overlay hidden-xs">
+  <div class="spinner"></div>
+</div>
+
+<!--------------------------------------------------------up button-------------------------------------------------------------->
+<button class="up hvr-pulse  hidden-xs">Go Up </button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/jquery 3.5.1.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/boot.js"></script>
+</body>
+</html>
